@@ -3,7 +3,7 @@
 import axios from 'axios'
 
 const apiCodeBurger = axios.create({
-  baseURL: 'https://codeburger-interface-chi.vercel.app',
+  baseURL: 'https://codeburger-api-production-da71.up.railway.app/',
 })
 
 apiCodeBurger.interceptors.request.use(async (config) => {
