@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Projeto CodeBurger
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### 	:point_right:Sobre
 
-In the project directory, you can run:
+Projeto de uma hamburgueria voltada para delivery, utilizando tecnologias modernas como React para proporcionar uma experiência de usuário excepcional. O objetivo é criar uma plataforma de pedidos online que seja intuitiva, eficiente e visualmente atraente, permitindo aos clientes personalizar seus pedidos de forma prática e rápida, com uma combinação de tecnologia avançada, design inteligente e foco na experiência do usuário.
 
-### `npm start`
+### 	:point_right:Funcionalidades do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ##### Tela de Login e Cadastro de usuário
+![Tela de login](src/assets/login.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+***
 
-### `npm test`
+![Tela de cadastro](src/assets/cadastro.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### Home
+- **Design Atrativo:** Interface moderna e amigável com imagens dos produtos, Visualização por categorias e ofertas
+- **Menu Dinâmico:** Lista completa dos hambúrgueres, acompanhamentos e bebidas, com descrições.
+- **Ofertas e Promoções:** Seção destacada para promoções atuais e combos especiais
+![Tela de Home](src/assets/home.png)
 
-### `npm run build`
+##### Carrinho 
+- **Gerenciamento Simples:** Adicionar, remover e modificar itens no carrinho de forma fácil.
+- **Cálculo Automático:** Atualização automática do subtotal, taxas de entrega e valor total.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Tela de cadastroCarrinho](src/assets/carrinho.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### Painel do Admin
+- **Gestão de Produtos:** Ferramentas para adicionar, editar e remover itens do menu.
+- **Controle de Pedidos:** Visualização e gerenciamento de pedidos recebidos, em andamento e finalizados.
+![Tela de Admin](src/assets/painel%20do%20admin.png)
+***
+![Tela de lista produtos](src/assets/lista.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### :point_right:Tecnologias / Funcionalidades - Breve Descrição
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend:**
+    - **React:** Biblioteca JavaScript para criação da interface de usuário.
+    - **Styled-components:** Estilização de componentes de forma modular.
+    - **Axios:** Requisições HTTP para integração com o backend.
+    - **React Hook Form:** Biblioteca para gerenciamento de formulários em aplicações React.
+    - **Yup:** Biblioteca de validação e transformação de schemas de objetos JavaScript.
+    - **React Toastify:** Biblioteca para exibir notificações no estilo toast em aplicações React. 
+    - **React Elastic Carousel:** Biblioteca para criação de carrosséis responsivos e flexíveis.
+    - **MUI (Material-UI):** biblioteca de componentes de interface 
+    - **React Select:** Biblioteca para criar menus dropdown e caixas de seleção.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Backend:**
+    - **Node.js:** Ambiente de execução JavaScript para construção do servidor.
+    - **Yarn**: Gerenciador de pacotes.
+    - **Express**: Framework para criação de APIs.    
+    - **Padrão MVC**: Estrutura de organização do código.
+    - **Docker**: Plataforma para criação de contêineres.
+    - **Sequelize**: ORM para manipulação de bancos de dados SQL.
+    - **Yup**: Validação de esquemas de objetos.
+    - **Multer**: Upload e gerenciamento de imagens com Multer.
+    - **UUID**: Geração de identificadores únicos.
+   - **MongoDB** / **PostgreSQL** : Utilização dos dois bancos de dados para diferentes necessidades.
+    - **Mongoose**: Modelagem de dados para MongoDB.
+    - **CORS**:  middleware que permite controlar quais recursos podem ser acessados de diferentes domínios, sendo importante para aplicações web que interagem com APIs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Autenticação e Segurança:**
+    - **JWT (JSON Web Tokens):** Autenticação segura dos usuários.
+    - **BCrypt:** Hashing de senhas para proteção de dados sensíveis.
+   
+- **Implantação:**
+    - **Vercel:** Plataformas de hospedagem para o frontend e backend.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
