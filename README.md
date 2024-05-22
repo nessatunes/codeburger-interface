@@ -66,5 +66,10 @@ Projeto de uma hamburgueria voltada para delivery, utilizando tecnologias modern
     - **BCrypt:** Hashing de senhas para proteção de dados sensíveis.
    
 - **Implantação:**
-    - **Vercel:** Plataformas de hospedagem para o frontend e backend.
+
+    - **Railway:** servidor Backend.
+    - **Vercel:** Plataformas de hospedagem para o frontend.
+    [Visite a página da Hamburgueria](https://codeburger-interface-chi.vercel.app/ "Clique aqui para visitar o site ")
+
+    
 
