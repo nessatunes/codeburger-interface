@@ -2,7 +2,8 @@
   "root": true,
   "env": {
     "es2021": true,
-    "node": true
+    "node": true,
+    "browser": true
   },
   "extends": [
     "eslint:recommended",
@@ -53,6 +54,12 @@
           ".js",
           ".jsx"
         ]
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
       }
     ]
   }
