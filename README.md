@@ -3,7 +3,7 @@
 
 ### 	:point_right:Sobre
 
-Projeto de uma hamburgueria voltada para delivery, utilizando tecnologias modernas como React para proporcionar uma experiência de usuário excepcional. O objetivo é criar uma plataforma de pedidos online que seja intuitiva, eficiente e visualmente atraente, permitindo aos clientes personalizar seus pedidos de forma prática e rápida, com uma combinação de tecnologia avançada, design inteligente e foco na experiência do usuário.
+Projeto de uma hamburgueria voltada para gestão delivery, utilizando tecnologias modernas como React para proporcionar uma experiência de usuário excepcional. O objetivo é criar uma plataforma de pedidos online que seja intuitiva, eficiente e visualmente atraente, permitindo aos clientes personalizar seus pedidos de forma prática e rápida, com uma combinação de tecnologia avançada, design inteligente e foco na experiência do usuário.
 
 ### 	:point_right:Funcionalidades do Projeto
 
@@ -12,7 +12,7 @@ Projeto de uma hamburgueria voltada para delivery, utilizando tecnologias modern
 
 ***
 
-![Tela de cadastro](src/assets/cadastro.png)
+![Tela de cadastro](src/assets/SignUp.png)
 
 ##### Home
 - **Design Atrativo:** Interface moderna e amigável com imagens dos produtos, Visualização por categorias e ofertas
@@ -24,14 +24,14 @@ Projeto de uma hamburgueria voltada para delivery, utilizando tecnologias modern
 - **Gerenciamento Simples:** Adicionar, remover e modificar itens no carrinho de forma fácil.
 - **Cálculo Automático:** Atualização automática do subtotal, taxas de entrega e valor total.
 
-![Tela de cadastroCarrinho](src/assets/carrinho.png)
+![Tela de cadastroCarrinho](src/assets/checkOut.png)
 
 ##### Painel do Admin
-- **Gestão de Produtos:** Ferramentas para adicionar, editar e remover itens do menu.
+- **Gestão de Produtos:** Ferramentas para adicionar ou editar itens do menu.
 - **Controle de Pedidos:** Visualização e gerenciamento de pedidos recebidos, em andamento e finalizados.
-![Tela de Admin](src/assets/painel%20do%20admin.png)
+![Tela de Admin](src/assets/Admin.png)
 ***
-![Tela de lista produtos](src/assets/lista.png)
+![Tela de lista produtos](src/assets/lista-produtos.png)
 
 
 ### :point_right:Tecnologias / Funcionalidades - Breve Descrição
