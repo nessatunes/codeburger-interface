@@ -68,8 +68,9 @@ Projeto de uma hamburgueria voltada para gestão delivery, utilizando tecnologia
 - **Implantação:**
 
     - **Railway:** servidor Backend.
-    - **Vercel:** Plataformas de hospedagem para o frontend.
-    [Visite a página da Hamburgueria]("https://codeburger-interface-chi.vercel.app "Clique aqui para visitar o site ")
+    - **Vercel:** Plataformas de hospedagem para o frontend. [Visite o Codeburger](https://codeburger-interface-chi.vercel.app "Clique aqui para visitar o site")
+      
+   
 
     
 
